@@ -61,3 +61,16 @@ python code/evaluate.py --cfg_path configs/config.yaml
 ## Acknowledgments
 This project builds upon the [DIF-Gaussian](https://github.com/xmed-lab/DIF-Gaussian) codebase.
 
+## Citation
+If you find this work useful, please cite our paper:
+
+```
+@article{tranvan2025dufal,
+  title   = {DuFal: Dual-Frequency-Aware Learning for High-Fidelity Extremely Sparse-view CBCT Reconstruction},
+  author  = {Tran Van, Cuong and Pham, Trong-Thang and Nguyen, Ngoc-Son and Ho Nguyen, Duy Minh and Le, Ngan},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2025},
+  month   = {December}
+}
+```
+
