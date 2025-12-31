@@ -53,7 +53,7 @@ pip install torch==1.13 pytorch3d SimpleITK easydict
 
 ---
 ## 📄 Configuration
-Edit `configs/config.yaml` to set your dataset path:
+Edit `configs/config.yaml` to set your dataset path (after preprocessing):
 
 ```yaml
 dataset:
@@ -61,8 +61,9 @@ dataset:
 ```
 
 ---
+---
 ## 🧩 Creating splits for training and testing
-Use the official dataset splits for LUNA16 and ToothFairy. Please refer to ./data for more details on how to structure the datasets.
+Dataset preparation and split definitions are documented in `data/README.md`. Use the official splits for LUNA16 and ToothFairy (see `data/LUNA16/` and `data/ToothFairy/`).
 
 ---
 ## 🧪 Usage
