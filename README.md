@@ -1,5 +1,5 @@
-#  [DuFal: Dual-Frequency-Aware Learning for High-Fidelity Extremely Sparse-View CBCT Reconstruction ](https://openreview.net/forum?id=2wAZjAtK16&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)) 
-## :tada: Accepted at [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/), December 2025 
+#  DuFal: Dual-Frequency-Aware Learning for High-Fidelity Extremely Sparse-View CBCT Reconstruction 
+## :tada: Accepted at [Transactions on Machine Learning Research (TMLR)](https://openreview.net/pdf?id=2wAZjAtK16), December 2025 
 
 We release the codebase for DuFal, an end-to-end sparse-view CBCT reconstruction framework that integrates spatial and frequency-domain processing to preserve fine anatomical details under extremely sparse-view settings.
 
