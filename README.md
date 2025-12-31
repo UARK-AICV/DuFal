@@ -1,9 +1,7 @@
-# DuFal
-## DuFal: Dual-Frequency-Aware Learning for High-Fidelity Extremely Sparse-View CBCT Reconstruction
+#  [DuFal: Dual-Frequency-Aware Learning for High-Fidelity Extremely Sparse-View CBCT Reconstruction - TMLR 2026](https://openreview.net/forum?id=2wAZjAtK16&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)) 
 
-Cuong Tran, Trong-Thang Pham, Son Nguyen, Duy Minh Ho Nguyen, Ngan Le
 
-Codebase for DuFal, an end-to-end sparse-view CBCT reconstruction framework that integrates spatial and frequency-domain processing to preserve fine anatomical details under extremely sparse-view settings.
+We release the codebase for DuFal, an end-to-end sparse-view CBCT reconstruction framework that integrates spatial and frequency-domain processing to preserve fine anatomical details under extremely sparse-view settings.
 
 ## Highlights
 - Dual-path encoding with spatial and frequency branches for high-frequency detail preservation.
