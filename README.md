@@ -62,7 +62,7 @@ dataset:
 
 ---
 ## 🧩 Creating splits for training and testing
-Use the official dataset splits for LUNA16 and ToothFairy, or update your split logic in `code/datasets/`.
+Use the official dataset splits for LUNA16 and ToothFairy. Please refer to ./data for more details on how to structure the datasets.
 
 ---
 ## 🧪 Usage
