@@ -8,7 +8,7 @@ Cuong Tran, Trong-Thang Pham, Son Nguyen, Duy Minh Ho Nguyen, Ngan Le
 
 ---
 
-## Key Contributions
+## Overview
 Sparse-view **Cone-Beam Computed Tomography (CBCT)** reconstruction remains challenging due to severe undersampling of high-frequency anatomical details. Conventional CNN-based methods are often biased toward low-frequency information, leading to the loss of fine structures.
 
 We propose **DuFal (Dual-Frequency-Aware Learning)**, a novel dual-path framework that jointly exploits spatial- and frequency-domain representations. At its core is a **High-Local Factorized Fourier Neural Operator**, which consists of:
