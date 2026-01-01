@@ -8,15 +8,17 @@ Cuong Tran, Trong-Thang Pham, Son Nguyen, Duy Minh Ho Nguyen, Ngan Le
 
 ---
 
-## Abstract
-Sparse-view Cone-Beam Computed Tomography reconstruction from limited X-ray projections remains a challenging problem in medical imaging due to the inherent undersampling of fine-grained anatomical details, which correspond to high-frequency components.
-Conventional CNN-based methods often struggle to recover these fine structures, as they are typically biased toward learning low-frequency information.
-To address this challenge, this paper presents **DuFal (Dual-Frequency-Aware Learning)**, a novel framework that integrates frequency-domain and spatial-domain processing via a dual-path architecture.
-The core innovation lies in our **High-Local Factorized Fourier Neural Operator**, which comprises two complementary branches: a Global High-Frequency Enhanced Fourier Neural Operator that captures global frequency patterns and a Local High-Frequency Enhanced Fourier Neural Operator that processes spatially partitioned patches to preserve spatial locality that might be lost in global frequency analysis.
-To improve efficiency, we design a **Spectral-Channel Factorization** scheme that reduces the Fourier Neural Operator parameter count.
-We also design a **Cross-Attention Frequency Fusion** module to integrate spatial and frequency features effectively.
-The fused features are then decoded through a Feature Decoder to produce projection representations, which are subsequently processed through an Intensity Field Decoding pipeline to reconstruct a final Computed Tomography volume.
-Experimental results on the LUNA16 and ToothFairy datasets demonstrate that DuFal significantly outperforms existing state-of-the-art methods in preserving high-frequency anatomical features, particularly under extremely sparse-view settings.
+## Key Contributions
+Sparse-view **Cone-Beam Computed Tomography (CBCT)** reconstruction remains challenging due to severe undersampling of high-frequency anatomical details. Conventional CNN-based methods are often biased toward low-frequency information, leading to the loss of fine structures.
+
+We propose **DuFal (Dual-Frequency-Aware Learning)**, a novel dual-path framework that jointly exploits spatial- and frequency-domain representations. At its core is a **High-Local Factorized Fourier Neural Operator**, which consists of:
+- a **global high-frequency enhanced branch** for capturing long-range spectral patterns, and  
+- a **local high-frequency enhanced branch** that processes spatial patches to preserve locality.
+
+To improve efficiency, DuFal introduces **spectral–channel factorization** to reduce model complexity, along with a **cross-attention frequency fusion** module for effective integration of spatial and spectral features. The fused representations are decoded into projection features and reconstructed into 3D volumes via an **intensity field decoding** pipeline.
+
+Experiments on **LUNA16** and **ToothFairy** demonstrate that DuFal consistently outperforms state-of-the-art methods, particularly under extremely sparse-view conditions, with superior preservation of high-frequency anatomical structures.
+
 
 <p align="center">
     <img src="images/Xray2CT-TMLR-v2.png" width="90%"> <br>
